@@ -1,0 +1,26 @@
+{
+  "name": "odoo-playwright-automation",
+  "version": "1.0.0",
+  "description": "Robust Playwright automation framework for Odoo UAT and QA testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "odoo",
+    "automation",
+    "testing",
+    "qa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "devDependencies": {}
+}
